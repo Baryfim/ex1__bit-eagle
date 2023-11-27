@@ -1,0 +1,163 @@
+.BannerContent {
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.MainImage {
+    width: 40%;
+}
+
+.BannerContentTextField {
+    margin-top: 187px;
+    width: 60%;
+}
+
+.BannerContentTextField h1 {
+    color: #FFE2AB;
+    font-family: Tektur;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.BannerContentTextField p {
+    width: 84.5%;
+    margin-top: 50px;
+    color: #FFF;
+    font-family: Tektur;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.BannerContentBlockBtns {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.BtnElGo {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 21px 68px; 
+    border-radius: 10px;
+    background: var(--gradient, linear-gradient(180deg, #FDEDCD 0%, #FFE2AB 100%));
+    box-shadow: 0px 0px 35px 0px rgba(254, 237, 204, 0.23), 0px 4px 0px 0px #E0C48E;
+    border: 1px solid #FDEDCD; 
+    color: #25242C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    transition: ease .2s;
+}
+
+.BtnElInfo {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #FFF; 
+    padding: 21px 68px; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    color: #fff;
+    transition: .2s;
+}
+
+.BtnElGo:hover {
+    background: var(--gradient, linear-gradient(180deg, #fdedcdcc 0%, #FFE2ABcc 100%));
+    box-shadow: 0px 0px 35px 0px rgba(254, 237, 204, 0.23), 0px 4px 0px 0px #E0C48Ecc;
+    border-color: #FDEDCDcc; 
+}
+
+.BtnElInfo:hover {
+    background-color: #37363f;
+}
+
+@media screen and (min-width: 420px) {
+    .container {
+        width: 390px;
+    }
+}
+
+@media screen and (min-width: 844px) {
+    .container {
+        width: 744px;
+    }
+}
+
+@media screen and (min-width: 1124px) {
+    .MainImage img {
+        width: 403px;
+    }
+    .BannerContentTextField {
+        margin-top: 101px;
+    }
+
+    .BannerContentTextField h1 {
+        color: var(--gold, #FFE2AB);
+        /* h1 (mobile) */
+        font-family: Tektur;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 102.5%; /* 49.2px */ 
+    }
+
+    .BannerContentTextField p {
+        color: #FFF;
+        /* p (mobile) */
+        font-family: Tektur;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+    }
+
+    .BannerContentBlockBtns {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (min-width: 1420px) {
+    .BannerContentBlockBtns {
+        margin-top: 50px;
+    }
+    .BannerContentTextField {
+        margin-top: 187px;
+        width: 60%;
+    }
+    
+    .BannerContentTextField h1 {
+        color: #FFE2AB;
+        font-family: Tektur;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+    }
+    
+    .BannerContentTextField p {
+        width: 84.5%;
+        margin-top: 50px;
+        color: #FFF;
+        font-family: Tektur;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+    }
+    .MainImage img {
+        width: 578px;
+    }
+}

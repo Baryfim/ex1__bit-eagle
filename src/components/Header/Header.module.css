@@ -1,0 +1,138 @@
+.Header {
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.HeaderLogoBlock {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+}
+
+.LogoText h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.NavBarList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.NavBarItem {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+
+.SelectorLangs {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.SelectorLangs span{
+    color: #FFE2AB;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.SNetwork {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+@media screen and (min-width: 420px) {
+    .container {
+        width: 390px;
+    }
+}
+
+@media screen and (min-width: 844px) {
+    .container {
+        width: 744px;
+    }
+}
+
+@media screen and (min-width: 1124px) {
+    .HeaderLogoBlock img{
+        width: 75px;
+        height: 75px;
+    }
+    .LogoText h2 {
+        font-size: 24px;
+    }
+    .NavBarItem {
+        font-size: 14px; 
+        width: max-content;
+    }
+    .SelectorLangs span {
+        font-size: 14px;
+    }
+    .NavBarList {
+        width: 65%;
+        gap: 50px;
+    }
+    .SNetwork {
+        width: 10%;
+    }
+    .HeaderLogoBlock {
+        width: 15%;
+    }
+    .SelectorLangs {
+        width: 5%;
+    }
+    .SNetwork{
+        position: relative;
+    }
+    .SNetworkBlock {
+        position: absolute;
+        display: flex;
+        right: 5px;
+        gap: 5px;
+    }
+}
+
+@media screen and (min-width: 1420px) {
+    .HeaderLogoBlock img{
+        width: 100px;
+        height: 100px;
+    }
+    .NavBarItem {
+        font-size: 20px; 
+        width: max-content;
+    }
+    .SelectorLangs span {
+        font-size: 20px;
+    }
+    .NavBarList {
+        width: 65%;
+        gap: 50px;
+    }
+    .LogoText h2 {
+        font-size: 32px;
+    }
+}

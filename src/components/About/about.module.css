@@ -1,0 +1,112 @@
+.AboutTextTitle {
+    color: var(--gold, #FFE2AB);
+    text-align: center;
+    font-family: Tektur;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 9.6px; 
+}
+
+.About {
+    margin-top: 180px;
+}
+
+.AboutBlocksField {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.InfoTextItem {
+    margin-left: 32px;
+}
+
+.InfoTextItem p {
+    margin-bottom: 58px;
+    color: #FFF;
+
+    /* p */
+    font-family: Tektur;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.InfoTextItem h3 {
+    margin-top: 60px;
+    margin-bottom: 58px;
+    color: #FFF;
+
+    /* h3 */
+    font-family: Tektur;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.BtnsAndLinksBlock {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.BtnElGo {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 21px 68px; 
+    border-radius: 10px;
+    background: var(--gradient, linear-gradient(180deg, #FDEDCD 0%, #FFE2AB 100%));
+    box-shadow: 0px 0px 35px 0px rgba(254, 237, 204, 0.23), 0px 4px 0px 0px #E0C48E;
+    border: 1px solid #FDEDCD; 
+    color: #25242C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    transition: ease .2s;
+}
+
+
+.BtnElGo:hover {
+    background: var(--gradient, linear-gradient(180deg, #fdedcdcc 0%, #FFE2ABcc 100%));
+    box-shadow: 0px 0px 35px 0px rgba(254, 237, 204, 0.23), 0px 4px 0px 0px #E0C48Ecc;
+    border-color: #FDEDCDcc; 
+}
+
+.SNetworksBlock {
+    height: 78px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+
+@media screen and (min-width: 420px) {
+    .container {
+        width: 390px;
+    }
+}
+
+@media screen and (min-width: 844px) {
+    .container {
+        width: 744px;
+    }
+}
+
+@media screen and (min-width: 1124px) {
+    .InfoTextItem h3  {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1420px) {
+
+}

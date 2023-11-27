@@ -1,0 +1,85 @@
+.footer {
+    width: 100%;
+    height: 323px;
+    background: #19181E; 
+}
+
+
+.colItem {
+    margin-top: 55px;
+    width: max-content;
+    color: #fff;
+}
+
+.colItem h3 {
+    margin-bottom: 22px;
+    color: var(--additional, #8580A5);
+    /* h3 */
+    font-family: Tektur;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.colItem p{
+    color: var(--additional, #8580A5);
+    /* p */
+    font-family: Tektur;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.HeadBlockFooter {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tabelInfoFooterBlock {
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 110px;
+}
+
+.ContactsBlock {
+    width: 45%;
+}
+
+.SNetworksBlock {
+    margin-top: 55px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.EmailBlock {
+    display: flex;
+    justify-content: flex-end;
+    color: var(--additional, #8580A5);
+    /* p */
+    font-family: Tektur;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.footerBlock {
+    margin-top: 21px;
+    text-align: center;
+}
+
+.logoItem {
+    color: var(--additional, #8580A5);
+    /* p */
+    font-family: Tektur;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}

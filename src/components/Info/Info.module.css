@@ -1,0 +1,163 @@
+.Info {
+    margin-top: 180px;
+}
+
+.Info > h1 {
+    color: var(--gold, #FFE2AB);
+    text-align: center;
+    font-family: Tektur;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 9.6px; 
+}
+
+.InfoBlock {
+    width: 100%;
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+    /* gap: 145px; */
+}
+
+.PricesInfo,
+.ImageCoin,
+.TextInfoData {
+    width: 33%;
+}
+
+.ImageCoin {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.TextInfoData  {
+    margin-top: 49px;
+}
+.TextInfoData h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.TextInfoData p {
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    color: #fff;
+}
+
+.ItemBlockElement {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.PricesInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ItemBlockElement img {
+    margin-right: 10px;
+}
+
+.CoinName {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+.CoinFullname {
+    width: 68px;
+    margin-right: 24px;
+    color: #8580A5;
+    font-family: Tektur;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.CoinPrice {
+    width: 120px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.ChangeCoin {
+    color: var(--red, #E4405F);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-left: 17px;
+}
+
+.BtcBlock {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0 auto;
+    margin-top: 71px;
+    gap: 20px;
+}
+
+
+.BtnElGo {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 21px 68px; 
+    border-radius: 10px;
+    background: var(--gradient, linear-gradient(180deg, #FDEDCD 0%, #FFE2AB 100%));
+    box-shadow: 0px 0px 35px 0px rgba(254, 237, 204, 0.23), 0px 4px 0px 0px #E0C48E;
+    border: 1px solid #FDEDCD; 
+    color: #25242C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    transition: ease .2s;
+}
+
+.BtnElInfo {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #FFF; 
+    padding: 21px 68px; 
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    color: #fff;
+    transition: .2s;
+}
+
+.BtnElGo:hover {
+    background: var(--gradient, linear-gradient(180deg, #fdedcdcc 0%, #FFE2ABcc 100%));
+    box-shadow: 0px 0px 35px 0px rgba(254, 237, 204, 0.23), 0px 4px 0px 0px #E0C48Ecc;
+    border-color: #FDEDCDcc; 
+}
+
+.BtnElInfo:hover {
+    background-color: #37363f;
+}

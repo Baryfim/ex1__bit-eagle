@@ -1,0 +1,183 @@
+.ContactsBlock {
+    margin-top: 180px;
+}
+
+.ContactsBlockTitile {
+    color: var(--gold, #FFE2AB);
+    text-align: center;
+    font-family: Tektur;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 9.6px;
+}
+
+.ContainerBlock {
+    max-width: 1074px;
+    margin: 0 auto;
+}
+
+.LineItem {
+    width: 1px;
+    height: 286px; 
+    background: #8580A5;
+}
+
+.LineBlock {
+    width: 5%;
+    display: flex;
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.ContactsChildrenBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 180px;
+}
+
+.ContactsForm {
+    width: 65%;
+}
+
+.ContactsLinks {
+    width: 30%;
+}
+
+.ContactsForm h3,
+.ContactsLinks h3 {
+    text-align: center;
+    color: #FFF;
+    font-family: Tektur;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    margin-bottom: 40px;
+}
+
+.FormFields {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.FormFields input {
+    padding: 21px 15px;
+    border: none;
+    outline: none;
+    width: 205px;
+    font-family: Tektur;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    border-radius: 10px;
+    background: var(--additional, #8580A5);
+}
+
+.Area {
+    display: flex;
+    justify-content: center;
+}
+
+.Area textarea {
+    outline: none;
+    margin-top: 20px;
+    border: none;
+    width: 462px;
+    padding: 21px 15px;
+    height: 125px;
+    flex-shrink: 0; 
+    border-radius: 10px;
+    background: var(--additional, #8580A5); 
+    color: var(--dark, #25242C);
+    font-family: Tektur;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    resize: none;
+}
+
+
+.Area textarea::-webkit-input-placeholder,
+.Area textarea:-moz-placeholder,
+  .Area textarea::-moz-placeholder,
+  .Area textarea:-ms-input-placeholder,
+  .Area textarea::-ms-input-placeholder,
+  .Area textarea::placeholder {
+    color: var(--dark, #25242C);
+    font-family: Tektur;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.BlockBtns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.BtnElGo {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 21px 68px; 
+    border-radius: 10px;
+    background: var(--gradient, linear-gradient(180deg, #FDEDCD 0%, #FFE2AB 100%));
+    box-shadow: 0px 0px 35px 0px rgba(254, 237, 204, 0.23), 0px 4px 0px 0px #E0C48E;
+    border: 1px solid #FDEDCD; 
+    color: #25242C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    transition: ease .2s;
+}
+
+
+.BtnElGo:hover {
+    background: var(--gradient, linear-gradient(180deg, #fdedcdcc 0%, #FFE2ABcc 100%));
+    box-shadow: 0px 0px 35px 0px rgba(254, 237, 204, 0.23), 0px 4px 0px 0px #E0C48Ecc;
+    border-color: #FDEDCDcc; 
+}
+
+.ContactsLinks {
+    margin-left: 47px;
+    color: #FFF;
+    /* p */
+    font-family: Tektur;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.InfoChild {
+    margin-top: 71px;
+}
+
+.InfoMail {
+    margin-top: 20px;
+}
+
+.SNetworksBlock {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.ItemSNetwork img {
+    width: 42px;
+}
